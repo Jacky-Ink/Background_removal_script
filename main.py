@@ -10,14 +10,12 @@ def remove_bg():
     for ext in list_of_extension:
         all_files.extend(Path('C:\ProjectsPython\Background_removal_script\input_imgs').glob(ext))
 
-    # print(all_files)
 
     for index, item in enumerate(all_files):
         input_path = Path(item)
         file_name = input_path.stem
 
         output_path = f'C:\ProjectsPython\Background_removal_script\output_imgs/{file_name}_output.png'
-        # print(output_path)
 
         input_img = Image.open(input_path)
         output_img = remove(input_img)
