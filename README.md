@@ -1,4 +1,4 @@
-# Background_removal_script - скрипт для удалени фона на изображениях
+# Background_removal_script - скрипт для удаления фона на изображениях
 
 1. Склонировать репозитарий:
     git clone https://github.com/Jacky-Ink/Background_removal_script.git
